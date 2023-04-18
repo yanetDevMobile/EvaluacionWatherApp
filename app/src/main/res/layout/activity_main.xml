@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:layout_marginHorizontal="6dp"
+        app:cardCornerRadius="8dp"
+        android:layout_gravity="center"
+        android:layout_weight=".5">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/text_tittle"
+            android:layout_width="match_parent"
+            android:text="Weather"
+            android:gravity="right"
+            android:textSize="22sp"
+            android:padding="4dp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_subtittle"
+            android:layout_width="match_parent"
+            android:text="condition"
+            android:gravity="right"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:textColor="@color/gray_oxfor"
+            android:layout_height="wrap_content" />
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_two"
+        android:layout_width="320dp"
+        android:layout_height="90dp"
+        android:layout_marginHorizontal="6dp"
+        app:cardCornerRadius="4dp"
+        android:layout_gravity="center"
+        android:layout_weight=".5">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+       
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="match_parent"
+            android:text="Degree"
+            android:gravity="right"
+            android:textSize="22sp"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_subtittle_two"
+            android:layout_width="match_parent"
+            android:text="percent"
+            android:gravity="right"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:textColor="@color/gray_oxfor"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_four"
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:layout_marginHorizontal="6dp"
+            app:cardCornerRadius="8dp"
+            android:layout_gravity="center"
+            android:layout_weight=".5">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/text_tittle_four"
+                    android:layout_width="match_parent"
+                    android:text="Weather"
+                    android:gravity="right"
+                    android:textSize="22sp"
+                    android:padding="4dp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/_four"
+                    android:layout_width="match_parent"
+                    android:text="condition"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:padding="4dp"
+                    android:textColor="@color/gray_oxfor"
+                    android:layout_height="wrap_content" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view_three"
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:layout_marginHorizontal="6dp"
+            app:cardCornerRadius="4dp"
+            android:layout_gravity="center"
+            android:layout_weight=".5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <TextView
+                    android:id="@+id/info_textç_three"
+                    android:layout_width="match_parent"
+                    android:text="Degree"
+                    android:gravity="right"
+                    android:textSize="22sp"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/text_subtittle_trhee"
+                    android:layout_width="match_parent"
+                    android:text="percent"
+                    android:gravity="right"
+                    android:textSize="18sp"
+                    android:padding="4dp"
+                    android:textColor="@color/gray_oxfor"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        android:layout_gravity="center_horizontal">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
